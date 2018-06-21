@@ -3,4 +3,6 @@ const
   app = require('express'),
   PORT = 3000
 
-app.listen(PORT)
+app.listen(PORT, () =>{
+  console.log("It's Alive.")
+})
